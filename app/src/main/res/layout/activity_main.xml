@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
     <TextView
         android:id="@+id/usuario"
         android:layout_width="wrap_content"
@@ -82,7 +81,6 @@
         app:layout_constraintVertical_bias="0.053"
         tools:ignore="MissingConstraints"
         tools:srcCompat="@drawable/login" />
-
     <TextView
         android:id="@+id/realizado"
         android:layout_width="wrap_content"

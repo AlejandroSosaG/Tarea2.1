@@ -31,13 +31,11 @@ class MainActivity : AppCompatActivity() {
             }
         })
     }
-
     override fun onPause() {
         super.onPause()
         val pausa = PausaBinding.inflate(layoutInflater)
         setContentView(pausa.root)
     }
-
     override fun onResume() {
         super.onResume()
         val main = ActivityMainBinding.inflate(layoutInflater)
@@ -59,7 +57,6 @@ class MainActivity : AppCompatActivity() {
             }
         })
     }
-
     override fun onDestroy() {
         super.onDestroy()
         var builder = NotificationCompat.Builder(this, "Notificación")
